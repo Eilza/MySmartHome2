@@ -1,4 +1,4 @@
-package ru.sbt.mipt.oop;
+package ru.sbt.mipt.oop.smartHome;
 
 import java.io.BufferedWriter;
 import java.io.IOException;

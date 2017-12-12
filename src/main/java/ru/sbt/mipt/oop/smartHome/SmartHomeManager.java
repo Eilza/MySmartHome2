@@ -1,4 +1,7 @@
-package ru.sbt.mipt.oop;
+package ru.sbt.mipt.oop.smartHome;
+
+import ru.sbt.mipt.oop.standartClass.Door;
+import ru.sbt.mipt.oop.standartClass.Light;
 
 /**
  * Created by DimaN228  on 09.11.2017.

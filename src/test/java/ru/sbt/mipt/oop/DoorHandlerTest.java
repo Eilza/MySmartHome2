@@ -1,6 +1,12 @@
 package ru.sbt.mipt.oop;
 
 import org.junit.Test;
+import ru.sbt.mipt.oop.handlers.DoorHandler;
+import ru.sbt.mipt.oop.smartHome.SmartHome;
+import ru.sbt.mipt.oop.standartClass.Door;
+import ru.sbt.mipt.oop.standartClass.Room;
+import ru.sbt.mipt.oop.standartClass.SensorEvent;
+import ru.sbt.mipt.oop.standartClass.SensorEventType;
 
 import java.util.Collection;
 

@@ -1,4 +1,8 @@
-package ru.sbt.mipt.oop;
+package ru.sbt.mipt.oop.handlers;
+
+import ru.sbt.mipt.oop.standartClass.Application;
+import ru.sbt.mipt.oop.standartClass.SensorEvent;
+import ru.sbt.mipt.oop.smartHome.SmartHome;
 
 import java.util.ArrayList;
 import java.util.Collection;

@@ -1,6 +1,8 @@
-package ru.sbt.mipt.oop;
+package ru.sbt.mipt.oop.standartClass;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import ru.sbt.mipt.oop.handlers.EventObserver;
+import ru.sbt.mipt.oop.smartHome.SmartHome;
 
 import java.io.IOException;
 

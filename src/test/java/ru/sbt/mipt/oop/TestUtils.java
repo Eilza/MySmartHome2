@@ -1,5 +1,10 @@
 package ru.sbt.mipt.oop;
 
+import ru.sbt.mipt.oop.smartHome.SmartHome;
+import ru.sbt.mipt.oop.standartClass.Door;
+import ru.sbt.mipt.oop.standartClass.Light;
+import ru.sbt.mipt.oop.standartClass.Room;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

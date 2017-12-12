@@ -4,6 +4,12 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
+import ru.sbt.mipt.oop.handlers.DoorHandler;
+import ru.sbt.mipt.oop.handlers.EventObserver;
+import ru.sbt.mipt.oop.handlers.LightHandler;
+import ru.sbt.mipt.oop.handlers.ScenarioHandler;
+import ru.sbt.mipt.oop.smartHome.SmartHome;
+import ru.sbt.mipt.oop.standartClass.SensorEvent;
 
 import static java.util.Arrays.asList;
 import static org.mockito.Mockito.verify;

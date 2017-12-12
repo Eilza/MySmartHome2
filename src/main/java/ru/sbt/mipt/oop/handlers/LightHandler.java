@@ -1,7 +1,12 @@
-package ru.sbt.mipt.oop;
+package ru.sbt.mipt.oop.handlers;
 
-import static ru.sbt.mipt.oop.SensorEventType.LIGHT_OFF;
-import static ru.sbt.mipt.oop.SensorEventType.LIGHT_ON;
+import ru.sbt.mipt.oop.standartClass.Light;
+import ru.sbt.mipt.oop.standartClass.Room;
+import ru.sbt.mipt.oop.standartClass.SensorEvent;
+import ru.sbt.mipt.oop.smartHome.SmartHome;
+
+import static ru.sbt.mipt.oop.standartClass.SensorEventType.LIGHT_OFF;
+import static ru.sbt.mipt.oop.standartClass.SensorEventType.LIGHT_ON;
 
 /**
  * Created by DimaN228  on 09.11.2017.

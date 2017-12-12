@@ -3,18 +3,18 @@
 
 <beans>
     <bean id="smartHome"
-          class="ru.sbt.mipt.oop.SmartHomeFileReader"
+          class="ru.sbt.mipt.oop.smartHome.SmartHomeFileReader"
           factory-method="read"></bean>
 
     <bean id="sensorEvent"
-          class="ru.sbt.mipt.oop.Application"
+          class="ru.sbt.mipt.oop.standartClass.Application"
           factory-method="getNextSensorEvent"></bean>
 
-    <bean id="doorHandler" class="ru.sbt.mipt.oop.DoorHandler"></bean>
-    <bean id="lightHandler" class="ru.sbt.mipt.oop.LightHandler"></bean>
-    <bean id="scenarioHandler" class="ru.sbt.mipt.oop.ScenarioHandler"></bean>
+    <bean id="doorHandler" class="ru.sbt.mipt.oop.handlers.DoorHandler"></bean>
+    <bean id="lightHandler" class="ru.sbt.mipt.oop.handlers.LightHandler"></bean>
+    <bean id="scenarioHandler" class="ru.sbt.mipt.oop.handlers.ScenarioHandler"></bean>
 
-    <bean id="eventHandler" class="ru.sbt.mipt.oop.EventObserver">
+    <bean id="eventHandler" class="ru.sbt.mipt.oop.handlers.EventObserver">
         <constructor-arg>
             <list>
                 <ref bean="doorHandler"></ref>

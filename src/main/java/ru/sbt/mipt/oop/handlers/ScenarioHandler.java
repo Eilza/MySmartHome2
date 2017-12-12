@@ -1,4 +1,8 @@
-package ru.sbt.mipt.oop;
+package ru.sbt.mipt.oop.handlers;
+
+import ru.sbt.mipt.oop.smartHome.SmartHome;
+import ru.sbt.mipt.oop.smartHome.SmartHomeManager;
+import ru.sbt.mipt.oop.standartClass.*;
 
 /**
  * Created by DimaN228  on 09.11.2017.

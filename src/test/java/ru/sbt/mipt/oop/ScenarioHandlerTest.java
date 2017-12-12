@@ -1,6 +1,9 @@
 package ru.sbt.mipt.oop;
 
 import org.junit.Test;
+import ru.sbt.mipt.oop.handlers.ScenarioHandler;
+import ru.sbt.mipt.oop.smartHome.SmartHome;
+import ru.sbt.mipt.oop.standartClass.*;
 
 import java.util.Collection;
 
